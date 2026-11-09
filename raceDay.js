@@ -1,7 +1,7 @@
 // import ical, { ICalCalendarMethod } from 'ical-generator';
 // import http from 'node:http';
 
-fetch(`https://api.runsignup.com/rest/races?rsu_api_reg=342.9L5HzLGH&format=json&events=F&race_headings=F&race_links=F&include_waiver=F&include_multiple_waivers=F&include_event_days=F&include_extra_date_info=F&include_giveaway_details=F&page=1&results_per_page=50&sort=name+ASC&start_date=today&only_partner_races=F&search_start_date_only=F&only_races_with_results=F&city=Philadelphia&state=PA&country=US&distance_units=K`)
+fetch(`https://api.runsignup.com/rest/races?format=json&events=F&race_headings=F&race_links=F&include_waiver=F&include_multiple_waivers=F&include_event_days=F&include_extra_date_info=F&include_giveaway_details=F&page=1&results_per_page=50&sort=name+ASC&start_date=today&only_partner_races=F&search_start_date_only=F&only_races_with_results=F&city=Philadelphia&state=PA&country=US&distance_units=K`)
         .then(response => response.json())
         .then((hospitals) => {}
 
