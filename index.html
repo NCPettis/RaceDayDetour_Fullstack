@@ -25,12 +25,23 @@
     
     </section>
     <main>
-        <div><form action="" method="get" class="emailForm"> 
+        <div><form action="" method="get" class="search"> 
                 <label for="search">Input zipcode</label>
                 <input type="text" name="search" id="search" required />
                 <input class="submitButton" type="submit" value="Submit" />
         </div>
+        <div id="table-wrap">
+    <table> 
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Location</th>
+            <th scope="col">Weather</th>
+        </tr>
+    </table>
+</div>
+
         <img src="mapPlaceholder.png" alt="Img of Map example">
+
     </main>
     <section class="sectionTwo">
         <h2> Sort Results</h2>
@@ -52,6 +63,6 @@
         </div> 
       
      </footer>
-    
+    <script src="raceDay.js" type="module"></script>
 </body>
 </html>
