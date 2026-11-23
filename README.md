@@ -16,14 +16,13 @@ Race Day Detour pulls upcoming races into one place, shows each race's date, sta
 
 ## How to Run or View It
 
-Diployed site coming soon.
-This is a work in progress!
 
 
 
 
 ## Screenshots and Demo
-Live link: Project
+Live link: Project - https://racedaydetour-fullstack.onrender.com/
+PROJECT IS IN PROGRESS but you can view updates at the live link. 
 
 ### Application Interface
 
