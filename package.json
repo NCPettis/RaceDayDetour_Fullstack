@@ -1,8 +1,8 @@
 
 {
-  "name": "binary-upload-boom",
+  "name": "race-day-detour",
   "version": "1.0.0",
-  "description": "100Devs Social Network",
+  "description": "demo day project",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
